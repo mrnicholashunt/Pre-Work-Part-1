@@ -40,3 +40,134 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.remainder {
+	font-size: 14px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	text-align: left;
+	color: white;
+	margin: 10px auto;
+	max-width: 265px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: .5px solid #444;
+	border-radius: 3px;
+	background: #444;
+}
+
+.progressbar {
+	Display: grid;
+  border: 1px solid #eaeaea;
+  width: 265px;
+  height: 12px;
+	margin: 0px auto;
+	grid-template-columns: 190px 75px;
+	}
+
+.progress {
+	margin: 0px auto;
+	max-width: 190px;
+	min-width: 190px;
+	padding: 0px;
+	background-color: #EF5F3C;
+	}
+
+.content {
+	font-size: 14px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	line-height: 17px;
+	margin: 0px auto;
+	max-width: 265px;
+	padding: 10px 18px 15px 18px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	text-align: left;
+	color: #777;
+	box-shadow: 0px 1px #eaeaea;
+}
+
+.content #calltoaction {
+	color: #EF5F3C;
+}
+
+.donate  {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+  display: inline-block;
+  margin-top: 10px;
+	margin-bottom: 10px;
+  padding: 0px;
+  text-decoration: none;
+	}
+
+	.donate p {
+		font-size: 16px;
+		text-align: left;
+		background: #FFFFFF;
+	  border: .3px solid #eaeaea;
+	  border-radius: 3px;
+	  color: #777;
+	  display: inline-block;
+	  margin-right: 5px;
+	  padding: 10px 66px 10px 10px;
+	  text-decoration: none;
+		box-shadow: 0px 1px #eaeaea;
+	}
+
+	.donate #type {
+		color: black;
+	}
+
+.donate a {
+	font-size: 16px;
+	font-style: bold;
+	background: #1cbc2c;
+  border: .3px solid #2cac3d;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 10px 22px;
+  text-decoration: none;
+	box-shadow: 0px 1px #2cac3d;
+}
+
+.donate a:hover {
+  background: #eaeaea;
+  border: .3px solid #2cac3d;
+  color: #1cbc2c;
+}
+
+.content #faq {
+  color: #20A1D4;
+	font-size:13px;
+	font-style: italic;
+	text-decoration: inherit;
+	margin-top: 20px;
+}
+.buttons {
+	text-align: center;
+}
+
+.buttons a {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+  background: #fffafa;
+  border: .3px solid #eaeaea;
+  border-radius: 3px;
+  color: #777;
+  display: inline-block;
+  margin: 11px 5.5px;
+  padding: 10px 22.5px;
+  text-decoration: none;
+	box-shadow: 0px 1px #eaeaea;
+}
+
+.buttons a:hover {
+  background: #777;
+  border: .3px solid #eaeaea;
+  color: #ffffff;
+}
